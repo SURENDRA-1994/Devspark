@@ -1,0 +1,111 @@
+.content{
+margin-top:10px;
+}
+.content h1{
+margin-left:20%;
+}
+.content ul{
+margin-left:20%;
+list-style-type:bullet;
+}
+.content a{
+margin-left:20%;
+}
+
+.content p{
+width:70%;
+align:justify;
+margin-left:20%;
+}
+iframe{
+margin-left:30%;
+height:300px;
+width:500px;
+}
+.icontainer{
+width:70%;
+height:230px;
+border:1px solid black;
+border-top:0px;
+border-right:0px;
+border-left:0px;
+margin-left:20%;
+}
+.box{
+width:280px;
+height:150px;
+background-color:#F4F4F4;
+float:left;
+padding:10px;
+padding-right:10px;
+margin-right:33px;
+margin-top:30px;
+border:1px solid black;
+}
+
+#mos1{
+background-color:#007fa3;
+height:50px;
+width:400px;
+font-size:20px;
+color:#fff;
+}
+#mos1:hover{
+background:#005a70;
+}
+.msoffice{
+width:300px;
+height:480px;
+border:1px solid #ADADB0;
+border-top:0px;
+border-bottom:0px;
+border-right:0px;
+float:right;
+margin-top:-1900px;
+margin-right:10px;
+}
+.msoffice h4{
+font-size:17px;
+padding-left:10px;
+}
+.msoffice img{
+padding:10px;
+padding-left:10px;
+}
+.msoffice a{
+margin-left:0px;
+}
+.msoffice img:hover{
+border:2px solid #0F0D4D;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 26px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-title {
+    position: relative;
+}
+.panel-group {
+    margin-bottom: 26px;
+    width:70%;
+    margin-left: 20%;
+}
+.sub{
+display:none;
+}

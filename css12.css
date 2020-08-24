@@ -1,0 +1,116 @@
+.content{
+margin-top:10px;
+}
+.content h1{
+margin-left:20%;
+}
+.content ul{
+margin-left:20%;
+}
+.content a{
+margin-left:20%;
+}
+.content p{
+width:700px;
+align:justify;
+margin-left:20%;
+}
+.learnkey{
+float:right;
+margin-right:30%;
+}
+iframe{
+margin-left:30%;
+height:300px;
+width:500px;
+}
+.icontainer{
+width:700px;
+height:230px;
+border:1px solid black;
+border-top:0px;
+border-right:0px;
+border-left:0px;
+margin-left:20%;
+}
+.box{
+width:200px;
+height:150px;
+background-color:#F4F4F4;
+float:left;
+padding:10px;
+padding-right:10px;
+margin-right:33px;
+margin-top:30px;
+border:1px solid black;
+}
+
+#mos1{
+background-color:#007fa3;
+height:40px;
+width:300px;
+font-size:20px;
+color:#fff;
+}
+#mos1:hover{
+background:#005a70;
+}
+.msoffice{
+width:300px;
+height:480px;
+border:1px solid #ADADB0;
+border-top:0px;
+border-bottom:0px;
+border-right:0px;
+float:right;
+margin-top:-2950px;
+margin-right:10px;
+}
+.msoffice h4{
+font-size:17px;
+padding-left:10px;
+}
+.msoffice img{
+padding:10px;
+padding-left:10px;
+}
+.msoffice a{
+margin-left:0px;
+}
+.msoffice img:hover{
+border:2px solid #0F0D4D;
+}
+.mtabadge{
+width:65%;
+height:300px;
+margin-left:20%;
+}
+.mtabadge img{
+margin-left:5px;
+}
+.mtabadge img:hover{
+border:1px solid black;
+background-color:blue;
+}
+.mtabadge a{
+margin-left:0%;
+}
+.badgebox1{
+width:50%;
+height:150px;
+margin-left:20%;
+}
+#single:hover{
+border:1px solid black;
+background-color:blue;
+}	
+.badgebox1 a{
+margin-left:0%;
+}
+.badgebox1 img{
+margin-left:5px;
+}
+.badgebox1 img:hover{
+border:1px solid black;
+background-color:blue;
+}
