@@ -10,7 +10,16 @@ font-size:30px;
 font-size:20px;
     padding-top: 4%;
 }
-
+.galleryContainer{
+margin-left:10%;
+width:90%;
+}
+.galleryContainer img{
+margin-right:30%
+}
+.slideShowContainer{
+margin-right:30%
+}
 
 }
 
@@ -20,7 +29,8 @@ font-size:18px;
     padding-top: 3%;
 }
 .galleryContainer{
-margin-left:12%;
+margin-left:10% !important;
+width:90%;
 }
 .sidebar {
 width:200px;
@@ -46,6 +56,21 @@ width:100px;
 margin-left:10%;
     border: none;
 }
+.content h1,.content p,.content button{
+margin-left:20% !important;
+}
+.content .colap{
+margin-left:20% !important;
+}
+.galleryContainer{
+margin-left:0%;
+}
+.galleryContainer img{
+margin-right:30%
+}
+.slideShowContainer{
+margin-right:30%
+}
 .btn1{
 margin-left:10% !important;
 margin-bottom:2%;
@@ -55,6 +80,9 @@ margin-bottom:2%;
 .msoffice img {
     padding: 10px 0 0 0px;
     /* padding-left: 10px; */
+}
+.galleryContainer{
+margin-left:0%;
 }
 .icontainer{
 margin-left:10%;
@@ -67,13 +95,22 @@ margin-bottom:2%;
 
 }
 @media (max-width:767px){
+	.slide-head {
+    font-size: 25px;
+    padding-top: 2%;
+}
 .msoffice {
     width: auto;
     height: auto;
     border: none;
-
 }
-.sidebar {
+.content hr{
+display:none;
+}
+.content a{
+margin-right:20%;
+}
+.sidebar, .hover_collapse .sidebar,.sidebar_inner,.sidebar:hover,.sidebar:active {
  
     top: 30px;
     left: 0;
@@ -82,31 +119,33 @@ margin-bottom:2%;
 }
 
 .content-sec{
-padding-top:65%;
-margin-top:40%;
+padding-top:35%;
+margin-top:35%;
 }
 .content p {
     margin-left: 8%;
-	margin-right: 5%;
+	margin-right: 20%;
 }
 .video{
-    margin-left: -25%;
+    margin-left: -35%;
 }
-
+.content a{
+margin-right: 5%;
+}
 .content h1 {
-    margin-left: 10%;
+    margin-left: 8%;
 	margin-right:5%;
 	font-size:30px;
 }
 .icontainer{
-	margin-left:10%;
+	margin-left:0%;
 	width:100%;
                border: none;
 	height:auto;
 }
 .box{
 		width:100%;
-		margin-left:0%;
+		margin-left:-5%;
 		height:auto;
 	}
 .btn1{
@@ -142,7 +181,7 @@ margin-bottom:2%;
 .ms-image{
 width:100px;
 margin-right: 5%;
-margin-top: -12%;
+margin-top: 1%;
 }
 .galleryContainer{
 	width:90%;
@@ -163,19 +202,23 @@ margin-top: -12%;
     height: 35vh;
    } 
  .slider-sec1{
-    margin-top: -12%;
+    margin-top: -52%;
  } 
  .msoffice{
     top:10%;
+}
+.content ul{
+margin-right:15%;
+margin-left:15%;
 }
 
 }
 @media (max-width:665px) {
 .content-sec {
-    padding-top: 80%;
+    padding-top: 45%;
 }
 .video {
-    margin-left: -35%;
+    margin-left: -40%;
 }
 .box {
     width: 90%;
@@ -186,14 +229,29 @@ margin-top: -12%;
 
 @media (max-width:620px) {
 .content-sec {
-    padding-top: 88%;
+    padding-top: 60%;
 }
+.video {
+    margin-left: -40%;
+}
+.box {
+    width: 90%;
+    margin-left:0%;
+    height: auto;
+	}
+	iframe {
+    margin:none !important;
+    text-align: center;
+    height: 200px;
+    width: 360px;
+	display:block;
+	}
 
 }
 
 @media (max-width:565px) {
 .content-sec {
-    padding-top: 110%;
+    padding-top: 73%;
 }
 .video {
     margin-left: -20%;
@@ -218,7 +276,7 @@ margin-top: -12%;
 }
 @media (max-width:485px) {
 .content-sec {
-    padding-top: 90%;
+    padding-top: 80%;
 }
 .video {
     margin-left: -20%;
@@ -287,10 +345,19 @@ margin-top:45%;
 .next-step-sec{
 margin-top:55% !important;
 }
+.content-sec {
+    padding-top: 101%;
+}
+.video {
+    margin-left: -35%;
+}
 
 }
 
 @media(max-width:375px){
+	.content-sec {
+    padding-top: 105%;
+}
 .slide-head {
     font-size: 18px;
     padding-top: 2%;
@@ -307,10 +374,44 @@ margin-top:55% !important;
     display: block;
 }
 .video {
-    margin-left: -25%;
+    margin-left: -35%;
 }
-.next-step-sec{
-margin-top:60%;
+.content hr{
+display:none;
 }
-
+.content ul{
+margin-left:15%;
+margin-right:5%;
+}
+.content h1{
+margin-left:8%;
+}
+.next-step{
+margin-top:10%;
+}
+.box{
+		width:100%;
+		margin-left:-35%;
+		height:auto;
+	}
+.content button{
+margin-left:0% !important;
+}
+.btn1{
+margin-left:5% !important;
+margin-bottom:2%;
+}
+.content .colap{
+margin-left:0% !important;
+}
+.content a{
+margin-right: 5%;
+}
+galleryContainer h1{
+font-size:20px !important;
+width:250px;
+}
+.galleryContainer img{
+width:100px;
+}
 }
