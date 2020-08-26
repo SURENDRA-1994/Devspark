@@ -139,9 +139,6 @@ html,body{
     background-color: #717171;;
 }
 
-
-
-
 .galleryContainer .moveLeftCurrentSlide{
     animation-name: moveLeftCurrent;
     animation-duration: 0.5s;
