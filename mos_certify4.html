@@ -29,7 +29,7 @@
   <body>
 
     <!-- Header Section Start -->
-    <header id="home" class="hero-area-2">    
+  <header id="home" class="hero-area-2">    
       <div class="overlay"></div>
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar nav-bg">
         <div class="container">
@@ -80,14 +80,13 @@ margin-bottom :10px;
 </style>
     <!-- features Section Start -->
     
-      <!-- sidebar wrapper starts  -->
-	  
+      <!-- sidebar starts  -->
 <div class="wrapper hover_collapse">
 <div class="row">
 <!-- sidebar sec starts -->
 <div class=" col-lg-2 col-md-3 col-sm-12 col-12">
 
- <div style="" class="section">
+ <div style="height:auto;" class="section">
   <div class="sidebar">
   <div class="hamburger">
     <i class="fas fa-bars"></i>
@@ -123,7 +122,7 @@ margin-bottom :10px;
     
 		<div id="collapseOne" class="collapse card-nav" data-parent="#accordion">
          <div class="card-body">
-		  <ul id="cert">
+		  <ul>
 			<a href="mos_certify1.html"><li>Office 365 & Office 2019</li></a>
 			<a href="mos_certify2.html"><li>MOS 2016</li></a>
 			<a href="mos_certify3.html"><li>MOS 2013</li></a>
@@ -189,7 +188,8 @@ margin-bottom :10px;
 <!-- sidebar sec ends -->
 
 <!-- slider sec starts -->
-<div class="col-lg-9 col-md-8 col-sm-12 col-12 slider-sec1">
+
+<div class="col-lg-9 col-md-7 col-sm-12 col-12 slider-sec1">
 <div  class="galleryContainer position-absolute">
     <h1 class="slide-head float-left">Microsoft Office Specialist Program</h1>
 	<img style="" src="img/microsoft-logo.png" class="float-right img-fluid ms-image">
@@ -203,22 +203,19 @@ margin-bottom :10px;
         </div>
         		
     </div>
-   
+    
 </div>
 </div>
-<div class="col-lg-1 col-md-2 d-sm-none">
 
-</div>
 <!-- slider sec ends -->
 
 </div>
 	
 </div>
 <!-- wrapper div ends -->
-
 <script src="myScript.js"></script>
-
 	
+<!-- new content sec starts -->
 <section class="content-sec">
       <div class="container-fluid">
         <div class="row">
@@ -294,26 +291,26 @@ As a Microsoft Office Master, you will:</p><br>
  <hr style="width:75%;margin-left:20%;">
  
 
-<div class="container next-step-sec" style="">
+<div class="next-step" style="">
 	<h1>Take the next steps</h1><br>
  
  <button style="margin-left:20%;" id="mos1" class="btn1"><i class="fa fa-comments" aria-hidden="true">&nbsp;</i>Contact Sales</button>
  <button style="margin-left:10%;" id="mos1"><i class="fa fa-newspaper-o">&nbsp;</i>Newsletter: Subscribe!</button> 
  </div>
- </div>
+</div>
 </div>		<!-- col ends -->
-<div class="col-lg-3 col-md-5 col-sm-12 col-12 float-right">
+
+	<div class="col-lg-3 col-md-5 col-sm-12 col-12 float-right">
 			<div class="container">
 
-	
 	<div class="msoffice">
-		<br><h4>Click a product icon for objective domains and to learn more</h4>
+		<br><br><h4>Click a product icon for objective domains and to learn more</h4>
 		<a href="msword.html"><img src="img/mos/msw.gif"></a>
-		<a href="msexel.html"><img src="img/mos/msex.gif"></a>
-		<a href="msppt.html"><img src="img/mos/msp.gif"></a>
-		<a href="msacc.html"><img src="img/mos/msa.gif"></a>
-		<a href="msol.html"><img src="img/mos/mso.gif"></a>
-		<a href="mson.html"><img src="img/mos/msn.jpg"></a>
+		<a href="msexcel.html"><img src="img/mos/msex.gif"></a>
+		<a href="msp.html"><img src="img/mos/msp.gif"></a>
+		<a href="msa.html"><img src="img/mos/msa.gif"></a>
+		<a href="mso.html"><img src="img/mos/mso.gif"></a>
+		<a href="msn.html"><img src="img/mos/msn.jpg"></a>
 		<a href="mssh.html"><img src="img/mos/mssh.jpg"></a>
 	</div>
 	</div>
@@ -508,27 +505,29 @@ As a Microsoft Office Master, you will:</p><br>
 </html>
 
 <style>
-.slide-head{
-font-size:30px;
-    padding-top: 2%;
+.content p{
+
+align:justify !important;
+margin-left:20%;
+text-color:#161617 !important;
+}
+.content ul{
+margin-left:30%
 }
 
-
-@media  (min-width: 992px) and (max-width: 1024px) {
-
-
-
+@media (max-width:768px) {
+.galleryContainer {
+    margin-left: 3% !important;
 }
-
-@media (max-width: 991px) and (min-width: 768px) {
-
-}
-@media (max-width: 1177px) and (min-width: 992px) {
-
 
 }
 @media (max-width:767px){
+.msoffice {
+    width: auto;
+    height: auto;
+    border: none;
 
+}
 .achive{
     width:auto;
 	height: auto;
@@ -542,32 +541,202 @@ width:auto;
 height:auto;
 margin-left:8%;
 margin-right:5%;
+border:10px solid #555;
+}
+.content hr{
+display:none;
+}
+.sidebar {
+ 
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.content-sec{
+padding-top:30%;
+margin-top:30% important;
+}
+.content p {
+    margin-left: 0%;
+	margin-right: 5%;
+}
+.video{
+    margin-left: -25%;
+}
+
+.content h1 {
+    margin-left: 10%;
+	margin-right:5%;
+	font-size:30px;
+}
+.icontainer{
+	margin-left:10%;
+	width:100%;
+               border: none;
+	height:auto;
+}
+.box{
+		width:95%;
+		margin-left:-10% !important;
+		height:auto;
+	}
+.btn1{
+margin-left:10% !important;
+margin-bottom:2%;
+}
+.hamburger{
+	font-size: 25px;
+	cursor: pointer;
+	color: #fff;
+	text-align:right;
+	padding-right:10px;
+	display:none;
+}
+.hover_collapse .sidebar {
+    width: 100%;
+}
+.hover_collapse .sidebar ul li a .text{
+	display: contents;
+}
+
+.hover_collapse .sidebar ul li div.card-nav{
+	display: contents;
+}
+
+
+.card-body ul{
+	display:block;
+}
+.card-body ul li{
+	display:block;
+}
+.ms-image{
+width:100px;
+margin-right: 5%;
+margin-top: -12%;
+}
+.any{
+    width:auto;
+	height: auto;
+	margin-left:-15%;
+}
+.any img{
+  width:75%;
+}
+.galleryContainer{
+	width:90%;
+	height: 300px;
+	margin-top:20%;
+}
+.galleryContainer #dotsContainer{
+	margin-top:-15px;
+	
+}
+.galleryContainer #dotsContainer .dots{
+	height:10px;
+	width:10px;
+}
+.galleryContainer .slideShowContainer {
+    width: 100%;
+    margin: auto;
+    height: 35vh;
+   } 
+ .slider-sec1{
+    margin-top: -12%;
+ } 
+ .msoffice{
+    top:10%;
 }
 
 }
-@media (max-width:665px) {
-
-}
-
-@media (max-width:620px) {
-
-}
-
-@media (max-width:565px) {
-
-}
-@media (max-width:485px) {
-
-}
-.slide-head {
-  
-}
-@media (max-width:426px) {
-
-}
-
 @media(max-width:375px){
+.slide-head {
+    font-size: 18px;
+    padding-top: 2%;
+    margin-left: 3%;
+}
+.galleryContainer .slideShowContainer {
+    height: 30vh;
+   }
+   iframe {
+    margin: none !important;
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    display: block;
+}
+.video {
+    margin-left: -40%;
+}
+.next-step-sec{
+margin-top:60%;
+}
 
+.content p {
+    margin-right: 5%;
+	    padding-right: 5%;
+	margin-left: -2%;
+	    padding-left: -2%;
+}
+.content h1 {
+    margin-right: 5%;
+	    padding-right: 5%;
+	margin-left: -2%;
+	    padding-left: -2%;
+}
+.content ul {
+    margin-right: 5%;
+	    padding-right: 5%;
+	margin-left: 0%;
+	    padding-left: 0%;
+}
+.box{
+width:100%;
+margin-left: -15%;
+	    padding-left: -15%;
+}
+
+}
+@media(max-width:400px) and (min-width: 320px){
+.content-sec {
+    margin-top:100% !important;
+}
+.galleryContainer{
+	heitht:300px;
+	margin-top:5%;
+}
+.galleryContainer #dotsContainer{
+	margin-top:-15px;
+	background-color:#DDDEDF;
+}
+.next-step button{
+width:90% !important;
+.video {
+    margin-left: -60%;
+}
+.content p {
+    margin-right: 5%;
+	    padding-right: 5%;
+	margin-left: -2%;
+	    padding-left: -2%;
+		width:90% !important;
+}
+.content h1 {
+    margin-right: 5%;
+	    padding-right: 5%;
+	margin-left: -2%;
+	    padding-left: -2%;
+		width:90% !important;
+}
+.content ul {
+    margin-right: 5%;
+	    padding-right: 5%;
+	margin-left: 0%;
+	    padding-left: 0%;
+		width:90% !important;
+}
 
 }
 </style>
