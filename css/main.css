@@ -2153,7 +2153,9 @@ footer .footer-Content {
   padding: 60px 0 0px;
   color: #546E7A;
 }
-
+footer .footer-Content ul{
+	list-style:none;	
+}
 footer .footer-Content h2 {
   color: #ffffff;
   font-size: 30px;
